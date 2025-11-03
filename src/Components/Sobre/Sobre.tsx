@@ -83,13 +83,13 @@ export default function Sobre() {
               destinados a instituições públicas e privadas que procuram inovar
               e otimizar a sua gestão, em especial:
             </p>
-            <div className="flex text-xs sm:text-lg flex-col items-start mb-5 font-medium">
+            <div className="flex text-xs sm:text-lg flex-col items-start mb-10 font-medium mt-10">
               <p>✔️ Instituições de Ensino</p>
               <p>✔️ Empresas e instituições públicas</p>
               <p>✔️ Órgãos de administração central e local</p>
               <p>✔️ Coordenadores, gestores e técnicos administrativos</p>
             </div>
-            <p className="text-xs sm:text-lg font-medium">
+            <p className="text-xs sm:text-lg font-medium mb-20">
               A <span className="text-[#F19209] font-bold  ">SOSOFT </span>é
               hoje uma referência em soluções de gestão institucional em Angola,
               promovendo um modelo de trabalho baseado na inovação,

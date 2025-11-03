@@ -1,5 +1,5 @@
 
-import MissaoVisaoValores from "./Missao"
+import MissaoVisaoValores from "./Missão/Missao"
 import Nav from "./Nav/Nav"
 import SobreP from "./SobreP"
 import Projectos from "./Projectos"

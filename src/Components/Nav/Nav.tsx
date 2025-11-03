@@ -59,7 +59,7 @@ export default function Nav() {
           </a>
           <div>
            <a href="#Contacto">
-             <button className="  px-3 py-2 rounded-md bg-[#F19209] transition-colors duration-700 font-medium hover:bg-[#da8309] text-white">
+             <button className="  px-3 py-2 rounded-md bg-[#F19209] transition-colors duration-700 font-bold shadow-2xl hover:bg-[#da8309] hover:px-2 hover:text-base text-white">
               Fale conosco
             </button>
            </a>

@@ -32,12 +32,12 @@ export default function PaginaInicial() {
               </p>
             </div>
             <a href="#Serviços">
-              <button className="bg-[#F19209] font-roboto hover:text-white text-base p-2 sm:text-xl  hover:text-lg rounded-xl drop-shadow-lg text-white transition-transform duration-700 sm:p-3 ">
+              <button className="bg-[#F19209] font-roboto hover:text-white text-base p-2 sm:text-xl  hover:text-lg rounded-xl drop-shadow-lg text-white transition-transform font-bold shadow-2xl duration-700 sm:p-3 ">
                 Explore Nossos Serviços
                 <img
                   src={arrow}
                   alt="Seta"
-                  className="inline-block w-4 sm:w-auto ml-2 animate-moveArrow "
+                  className="inline-block w-4 sm:w-auto ml-2 animate-moveArrow  "
                 />{" "}
               </button>
             </a>
@@ -81,7 +81,7 @@ export default function PaginaInicial() {
           Contacte-nos!
         </h1>
         <div className="items-center justify-center flex  mb-10">
-          <button className="bg-[#F19209] p-2 sm:p-3 shadow-lg rounded-xl transition-colors duraction-700 text-base sm:text-lg hover:bg-yellow-400 hover:p-4 font-roboto text-white ">
+          <button className="bg-[#F19209] p-2 sm:p-3 shadow-2xl rounded-xl transition-colors duraction-700 text-base sm:text-lg hover:bg-orange-400 font-bold hover:p-4  text-white ">
             Peça um orçamento
             <img
               src={arrow}

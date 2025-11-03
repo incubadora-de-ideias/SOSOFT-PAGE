@@ -1,9 +1,12 @@
 import React from "react";
 import{ Shell, Eye, Gem } from "lucide-react";
 
+
+
 export default function MissaoVisaoValores() {
   return (
     <section className="py-20 px-6 bg-gray-50" id="institucional">
+   
       <div className="max-w-6xl mx-auto text-center">
         <h2 className="text-4xl font-bold mb-10 text-[#181817] animate-fade-in-up">
           Missão, Visão e Valores

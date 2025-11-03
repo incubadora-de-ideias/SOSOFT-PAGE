@@ -1,4 +1,4 @@
-import iconNav from "../Nav/IconNav.png";
+import IconFooter from "./IconFooter.png";
 
 export default function Foother() {
   return (
@@ -8,7 +8,7 @@ export default function Foother() {
           <div>
             <div className="flex gap-3 items-center text-xl sm:text-3xl text-white font-semibold">
            <img
-            src={iconNav}
+            src={IconFooter}
             alt="Sosoft Logo"
             className="h-8 sm:h-12 object-contain"
           />
