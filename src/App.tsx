@@ -9,7 +9,7 @@ export default function App() {
     <Routes>
       <Route path="/" element={<Navigate to="/PaginaInicial" />}></Route>
       <Route
-        path="/PaginaInicial"
+        path="/Inicio"
         element={<PaginaInicial></PaginaInicial>}
       ></Route>
       <Route path="/Portifolio" element={<Portfolio></Portfolio>}></Route>
