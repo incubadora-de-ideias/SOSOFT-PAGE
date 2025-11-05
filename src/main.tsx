@@ -2,12 +2,12 @@ import ReactDOM from "react-dom/client"
 import './index.css'
 import React from 'react'
 import App from './App'
-import { BrowserRouter } from 'react-router-dom'
+import {  HashRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/SOSOFT-PAGE">
+    <HashRouter basename="/SOSOFT-PAGE">
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )
