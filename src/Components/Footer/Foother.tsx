@@ -3,7 +3,7 @@ import IconFooter from "./IconFooter.png";
 export default function Foother() {
   return (
     <div>
-      <footer className="bg-[#2B8CAE] text-white  w-full ">
+      <footer id="Foother" className="bg-[#2B8CAE] text-white  w-full ">
         <div className="max-w-7xl mx-auto py-12 px-6 grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
             <div className="flex gap-3 items-center text-xl sm:text-3xl text-white font-semibold">

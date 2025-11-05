@@ -5,6 +5,16 @@ import Foother from "./Footer/Foother";
 import Nav from "./Nav/Nav";
 import Serviços from "./Serviços";
 export default function PaginaInicial() {
+ 
+  function scrollToSection(id = "Serviços") {
+    const element = document.getElementById(id);
+
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+
+    window.history.pushState(null, `#${scrollToSection}`);
+  }
   return (
     /**Cabeçalho */
     <div className="overflow-y-auto scroll-smooth ">
@@ -31,7 +41,13 @@ export default function PaginaInicial() {
                 crescer e evoluir
               </p>
             </div>
-            <a href="#Serviços">
+            <a
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection("Serviços");
+              }}
+              href="#"
+            >
               <button className="bg-[#F19209] font-roboto hover:text-white text-base p-2 sm:text-xl  hover:text-lg rounded-xl drop-shadow-lg text-white transition-transform font-bold shadow-2xl duration-700 sm:p-3 ">
                 Explore Nossos Serviços
                 <img
@@ -59,7 +75,9 @@ export default function PaginaInicial() {
           <Serviços></Serviços>
         </div>
         <div className="justify-center ml-16 mr-16 space-y-4 sm:ml-0   flex items-center flex-col">
-          <h1 className="font-bold text-xl sm:text-4xl font-roboto">Pronto para viver o resultado?</h1>
+          <h1 className="font-bold text-xl sm:text-4xl font-roboto">
+            Pronto para viver o resultado?
+          </h1>
           <p className="text-gray-400 text-xs sm:text-lg font-roboto ">
             Entre em contacto connosco e descubra como impulsionamos seu negócio
             com os nossos serviços.

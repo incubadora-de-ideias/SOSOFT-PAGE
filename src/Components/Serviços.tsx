@@ -7,7 +7,7 @@ export default function Serviços() {
     <div className="overflow-y-auto sm:overflow-none">
      
 
-      <div className="flex   justify-center items-center space-y-8  mt-10 mb-20 flex-col animate-fade-in   ">
+      <div  className="flex   justify-center items-center space-y-8  mt-10 mb-20 flex-col animate-fade-in   ">
         <div className=" flex flex-col sm:flex-row  gap-4 ">
           <div className="group bg-white rounded-xl  p-8 shadow-xl  h-auto w-64  items-center  justify-center flex-col flex transition-transform duration-300 hover:scale-105 ">
             <h3 className=" flex flex-col font-bold items-center  justify-center pb-5">
