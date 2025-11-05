@@ -26,19 +26,19 @@ export default function Foother() {
               Navegação
             </h3>
             <ol className="space-y-2 ">
-              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-700 cursor-pointer">
+              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-100 cursor-pointer">
                 Início
               </li>
-              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-700 cursor-pointer">
+              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-100 cursor-pointer">
                 Serviços
               </li>
-              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-700 cursor-pointer">
+              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-100 cursor-pointer">
                 Sobre
               </li>
-              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-700 cursor-pointer">
+              <li className="hover:text-[#F19209] text-xs sm:text-base transition-colors duration-100 cursor-pointer">
                 Portfólio
               </li>
-              <li className="hover:text-[#F19209] text-xs sm:text-basetransition-colors duration-700 cursor-pointer">
+              <li className="hover:text-[#F19209] text-xs sm:text-basetransition-colors duration-100 cursor-pointer">
                 Contacto
               </li>
             </ol>
@@ -48,11 +48,11 @@ export default function Foother() {
               Serviços
             </h3>
             <ol className="space-y-2">
-              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base  duraction-700 cursor-pointer">
+              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base  duraction-100 cursor-pointer">
                 Desenvolvimento
               </li>
 
-              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base duraction-700 cursor-pointer">
+              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base duraction-100 cursor-pointer">
                 Criação de cartões de identificação{" "}
               </li>
             </ol>
@@ -65,10 +65,10 @@ export default function Foother() {
               Contacto
             </h3>
             <ol className="space-y-2">
-              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base duraction-700 cursor-pointer">
+              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base duraction-100 cursor-pointer">
                 Tel.: +244 942 031 240
               </li>
-              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base duraction-700 cursor-pointer">
+              <li className="hover:text-[#F19209] transition-colors text-xs sm:text-base duraction-100 cursor-pointer">
                 Email: geral@sosoft.ao
               </li>
             </ol>
