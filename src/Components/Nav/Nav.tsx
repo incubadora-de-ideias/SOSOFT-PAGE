@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import iconNav from "./IconNav.png";
+import iconNav from "../../assets/IconNav.png";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 export default function Nav() {

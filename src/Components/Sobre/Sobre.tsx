@@ -1,9 +1,9 @@
 import Nav from "../Nav/Nav";
 import Foother from "../Footer/Foother";
-import foto2 from "./foto_sobre2.svg";
-import foto3 from "./foto_sobre3.svg";
-import foto4 from "./foto_sobre4.svg";
-import sosoft_sobre from "./sosoft_sobre.jpeg";
+import foto2 from "../../assets/foto_sobre2.svg";
+import foto3 from "../../assets/foto_sobre3.svg";
+import foto4 from "../../assets/foto_sobre4.svg";
+import sosoft_sobre from "../../assets/sosoft_sobre.jpeg";
 
 export default function Sobre() {
   return (
