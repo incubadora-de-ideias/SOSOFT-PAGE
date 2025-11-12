@@ -1,4 +1,4 @@
-import iconNav from "../../assets/IconNav-BKs5XB8X.png";
+import iconNav from "../../assets/IconNav.png";
 
 export default function Foother() {
   return (

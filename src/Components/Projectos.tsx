@@ -1,5 +1,5 @@
-import PortalIPILIcon from "../imagens/Ipil.jpg"; 
-import AcessoETPIcon from "../imagens/acessoetp.png";   
+import PortalIPILIcon from "../assets/Ipil.jpg"; 
+import AcessoETPIcon from "../assets/acessoetp.png";   
 
 export default function Projectos() {
   return (

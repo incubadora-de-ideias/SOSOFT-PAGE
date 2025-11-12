@@ -1,4 +1,4 @@
-    import SobrePort from '../imagens/SobrePort.png'
+    import SobrePort from '../assets/SobrePort.png'
     export default function SobreP() {
   return (
     <section className="py-20 px-6 bg-white" id="sobre">
