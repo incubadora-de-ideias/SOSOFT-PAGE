@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Sosoft-Site">
+    <BrowserRouter basename="/SOSOFT-PAGE">
       <App />
     </BrowserRouter>
   </React.StrictMode>,
