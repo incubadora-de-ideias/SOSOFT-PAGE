@@ -47,11 +47,11 @@ export default function Foother() {
                 Portfólio
               </li>
               </Link>
-             <Link to="/Contacto">
+             
               <li className="hover:text-[#F19209] text-xs sm:text-basetransition-colors duration-700 cursor-pointer">
                 Contacto
               </li>
-             </Link>
+            
             </ol>
           </div>
           <div >
