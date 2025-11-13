@@ -1,15 +1,12 @@
 import { Link } from "react-router-dom";
-import iconNav from "../../assets/IconNav.png";
+import iconNav from "../assets/IconNav.png";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
-export default function Nav() {
-  const [menuOpen, setMenuOpen] = useState(false);
-  function OpenMenu() {
-    setMenuOpen(true);
-  }
-  function CloseMenu() {
-    setMenuOpen(false);
-  }
+import BotaoMenu from "../Hooks/Menu"
+
+  export default function Nav () {
+
+    const {menuOpen, CloseMenu, OpenMenu}=BotaoMenu();
+  
   return (
     <header className="fixed top-0  w-full scroll-smooth  transparent-bg z-[50]  ">
     {/* Menu desktop */}

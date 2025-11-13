@@ -1,14 +1,12 @@
 import video from "../assets/video3.mp4";
 import videogif from "../assets/codeGif.mp4";
 import arrow from "../assets/right-arrow.png";
-import Foother from "./Footer/Foother";
-import Nav from "./Nav/Nav";
 import Serviços from "./Serviços";
 export default function PaginaInicial() {
   return (
     /**Cabeçalho */
     <div className="overflow-y-auto scroll-smooth ">
-      <Nav></Nav>
+     
       <div>
         <div className="relative w-full h-screen overflow-hidden">
           <video
@@ -59,7 +57,9 @@ export default function PaginaInicial() {
           <Serviços></Serviços>
         </div>
         <div className="justify-center ml-16 mr-16 space-y-4 sm:ml-0   flex items-center flex-col">
-          <h1 className="font-bold text-xl sm:text-4xl font-roboto">Pronto para viver o resultado?</h1>
+          <h1 className="font-bold text-xl sm:text-4xl font-roboto">
+            Pronto para viver o resultado?
+          </h1>
           <p className="text-gray-400 text-xs sm:text-lg font-roboto ">
             Entre em contacto connosco e descubra como impulsionamos seu negócio
             com os nossos serviços.
@@ -91,7 +91,7 @@ export default function PaginaInicial() {
           </button>
         </div>
       </div>
-      <Foother></Foother>
+      
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import iconNav from "../../assets/IconFooter.png";
+import iconNav from "../assets/IconFooter.png";
 import { Link } from "react-router-dom";
 
 export default function Foother() {

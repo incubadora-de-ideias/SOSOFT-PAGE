@@ -1,15 +1,11 @@
-import Nav from "../Nav/Nav";
-import Foother from "../Footer/Foother";
-import foto2 from "../../assets/foto_sobre2.svg";
-import foto3 from "../../assets/foto_sobre3.svg";
-import foto4 from "../../assets/foto_sobre4.svg";
-import sosoft_sobre from "../../assets/sosoft_sobre.jpeg";
+import foto2 from "../assets/foto_sobre2.svg";
+import foto3 from "../assets/foto_sobre3.svg";
+import foto4 from "../assets/foto_sobre4.svg";
+import sosoft_sobre from "../assets/sosoft_sobre.jpeg";
 
 export default function Sobre() {
   return (
     <div className="">
-      <Nav></Nav>
-
       <section className="min-h-screen bg-white text-gray-800 mt-32 p-8">
         <h1 className="text-4xl font-bold flex justify-center text-[#F19209] mb-12">
           Sobre Nós
@@ -24,7 +20,6 @@ export default function Sobre() {
           src=""
         ></video>
 
-        
         <div className="max-w-4xl justify-between text-start flex mb-20 mx-auto">
           <div>
             <p className="text-xs sm:text-lg font-medium">
@@ -55,8 +50,7 @@ export default function Sobre() {
           </div>
 
           <div className="w-[100%] sm:h-auto sm:w-[200%]  bg-cover  bg-center">
-         
-            <img src={foto2} alt="" className=" h-full "/>
+            <img src={foto2} alt="" className=" h-full " />
           </div>
         </div>
         <div className="max-w-4xl justify-between flex  mx-auto  ">
@@ -103,12 +97,10 @@ export default function Sobre() {
 
           <div className="w-[100%] h-auto sm:w-[200%]  bg-cover  bg-center">
             {" "}
-            <img src={foto4} alt="" className="h-96"/>
+            <img src={foto4} alt="" className="h-96" />
           </div>
         </div>
       </section>
-
-      <Foother></Foother>
     </div>
   );
 }
