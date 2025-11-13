@@ -10,7 +10,7 @@ export default function AppRoutes() {
     <Routes>
       
         <Route path="/" element={<DefaultLayout/>}>
-      <Route path="/" element={<Navigate to="/PaginaInicial" />}></Route>
+      <Route index element={<Navigate to="/PaginaInicial" />}></Route>
       <Route
         path="/PaginaInicial"
         element={<PaginaInicial></PaginaInicial>}
