@@ -2,7 +2,9 @@ import video from "../assets/video3.mp4";
 import videogif from "../assets/codeGif.mp4";
 import arrow from "../assets/right-arrow.png";
 import Serviços from "./Serviços";
+import Scrollinicial from "../Hooks/Scrollinicial"
 export default function PaginaInicial() {
+  const {PaginaInicial} = Scrollinicial();
   return (
     /**Cabeçalho */
     <div className="overflow-y-auto scroll-smooth ">
@@ -30,7 +32,7 @@ export default function PaginaInicial() {
               </p>
             </div>
             <a href="#Serviços">
-              <button className="bg-[#F19209] font-roboto hover:text-white text-base p-2 sm:text-xl  hover:text-lg rounded-xl drop-shadow-lg text-white transition-transform duration-700 sm:p-3 ">
+              <button className="bg-[#F19209] font-roboto hover:text-white text-base p-2 sm:text-xl   rounded-xl shadow-[0_4px_12px_rgba(241,146,9,0.5)] hover:shadow-[0_2px_16px_rgba(241,146,9,0.7)] text-white transition-transform duration-700 sm:p-3 ">
                 Explore Nossos Serviços
                 <img
                   src={arrow}
@@ -45,7 +47,7 @@ export default function PaginaInicial() {
         {/* /**Nossos Serviços */}
 
         <h1
-          id="Serviços"
+          id="Serviços" onLoad={Scrollinicial}
           className="text-black font-bold font-roboto items-center justify-center flex mt-10 text-2xl sm:text-4xl "
         >
           Nossos Serviços
@@ -81,12 +83,12 @@ export default function PaginaInicial() {
           Contacte-nos!
         </h1>
         <div className="items-center justify-center flex  mb-10">
-          <button className="bg-[#F19209] p-2 sm:p-3 shadow-lg rounded-xl  transition-all duraction-700 text-base sm:text-lg hover:bg-yellow-400 hover:p-2 sm:hover:text-base  text-white ">
+          <button className="bg-[#F19209] p-2 sm:p-3 shadow-lg rounded-xl  transition-shadow duraction-700 text-base sm:text-lg hover:shadow-[0_4px_10px_rgba(241,156,9,2)]  text-white ">
             Peça um orçamento
             <img
               src={arrow}
               alt="Seta"
-              className="inline-block w-4 sm:w-auto sm:hover:ml-0.5 ml-2 animate-moveArrow "
+              className="inline-block w-4 sm:w-auto  ml-2 animate-moveArrow "
             />
           </button>
         </div>

@@ -2,14 +2,13 @@ import ReactDOM from "react-dom/client"
 import './index.css'
 import React from 'react'
 import App from './App'
-import { BrowserRouter } from 'react-router-dom'
+import { MemoryRouter } from 'react-router-dom'
 
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <BrowserRouter basename="/SOSOFT-PAGE">
-    
+    <MemoryRouter >
       <App />
-    </BrowserRouter>
+    </MemoryRouter>
   </React.StrictMode>,
 )
